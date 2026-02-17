@@ -1,0 +1,11 @@
+{
+  "frontend/src/App.tsx": "Main application component that manages view state (gallery/create) and wraps the app with ThemeProvider and Toaster for notifications.",
+  "frontend/src/components/Header.tsx": "Sticky header component with app branding and navigation buttons to switch between gallery and create artist views.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright and attribution with a link to caffeine.ai.",
+  "frontend/src/components/ArtistGallery.tsx": "Main gallery view with search, genre filtering, and responsive grid display of artist cards with loading and empty states.",
+  "frontend/src/components/ArtistCard.tsx": "Artist card component displaying artist image, name, genre, bio excerpt, social links, and a modal dialog for full details.",
+  "frontend/src/components/CreateArtistForm.tsx": "Comprehensive form for creating new artist profiles with image upload, required fields validation, and optional music/social links.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including fetching, searching, filtering artists, and creating new profiles.",
+  "frontend/src/index.css": "Global styles with OKLCH-based design system featuring purple/violet primary colors inspired by music streaming platforms for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom design tokens matching the music-focused color palette."
+}
